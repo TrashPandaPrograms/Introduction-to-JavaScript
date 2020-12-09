@@ -18,7 +18,11 @@ Do the following:
    HINT: no function required
 */
 
+var votingAge=18;
+{if votingAge= 18 || >18;
+  console.log('You can vote');
 
+}
 
 /*
 Task 1b - Values
@@ -31,9 +35,17 @@ Do the following:
    HINT: no function required
 */
 
+let firstName='Felix'
+let lastName='Rodriguez'
 
-
-
+if (firstName==='Samantha' && lastName==='Rodriguez'){
+  console.log('Right Person');
+  return
+}
+else{
+  console.log('Wrong Person');
+  return
+}
 
 /*
 Task 1c - Convert Strings to Numbers
@@ -46,8 +58,9 @@ Do the following:
    HINT: look up the Number method
 */
 
-
-
+let myNumber= parseInt("1999");
+console.log(myNumber);
+return
 
 /*
 Task 1d - Multiply
@@ -58,10 +71,12 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
-  }
-
+function multiply(a,b){
+  let a=6.5;
+  let b=6.5;
+  let c=(a*b);
+  console.log(c);
+}
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -74,8 +89,9 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(age){
+    dogYears=age*7; 
+    console.log( age + " age in dog years")
 }
 
 
